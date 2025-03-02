@@ -81,6 +81,10 @@ app.get('/get-products', async (req, res) => {
   }
 });
 
+app.get('/', (req,res)=> {
+  return res.json('backend online')
+})
+
 // Route to get products with lazy loading (pagination)
 app.post('/remove-bg', async (req, res) => {
     try {
