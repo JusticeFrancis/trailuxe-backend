@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Debugging
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# PM2 logs
+.pids
+*.pid
